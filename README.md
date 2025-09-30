@@ -1,34 +1,50 @@
-ecommerce-practice/
-├── app/
-│ ├── layout.jsx # Root layout (nav/footer)
-│ ├── page.jsx # Homepage
-│ ├── shop/
-│ │ ├── page.jsx # Product listing
-│ │ └── [id]/page.jsx # Product detail page (dynamic route)
-│ ├── cart/page.jsx # Cart page
-│ ├── checkout/page.jsx # Checkout page
-│ └── api/
-│ └── products/route.js # Example API route
-│
-├── components/ # Reusable components
-│ ├── Navbar.jsx
-│ ├── Footer.jsx
-│ ├── ProductCard.jsx
-│ ├── CartItem.jsx
-│ └── Button.jsx
-│
-├── lib/ # Utilities/helpers
-│ └── products.js # Fake product data (mock DB)
-│
-├── public/ # Static assets
-│ └── images/ # Product images
-│
-├── styles/
-│ └── globals.css
-│
+```text
+EcommercesNext/
 ├── .gitignore
+├── README.md
+├── app/
+│   ├── cart/
+│   │   └── page.jsx
+│   ├── checkout/
+│   │   └── page.jsx
+│   ├── favicon.ico
+│   ├── layout.jsx
+│   ├── page.jsx
+│   └── shop/
+│       ├── [id]/
+│       │   └── page.jsx
+│       └── page.jsx
+├── components/
+│   ├── Button.jsx
+│   ├── CartItem.jsx
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   └── ProductCard.jsx
+├── eslint.config.mjs
+├── jsconfig.json
+├── lib/
+│   └── products.js
+├── next.config.mjs
+├── package-lock.json
 ├── package.json
-└── next.config.js
+├── postcss.config.mjs
+├── public/
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+└── styles/
+    └── globals.css
+```
+
+steps
+
+home page
+item page
+cart functionality
+about page
+search functionality
 
 later on
 
