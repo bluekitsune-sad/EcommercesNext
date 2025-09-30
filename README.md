@@ -29,6 +29,10 @@ EcommercesNext/
 ├── package.json
 ├── postcss.config.mjs
 ├── public/
+│   ├── fonts/
+│   │   └── pixelFont
+|   |       └──JunMono.otf
+│   ├── images/
 │   ├── file.svg
 │   ├── globe.svg
 │   ├── next.svg
