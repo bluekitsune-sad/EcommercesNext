@@ -41,14 +41,47 @@ EcommercesNext/
 steps
 
 home page
+
+    header
+
+    footer
+
+    etc
+
 item page
+
+    box
+
+    detail
+
 cart functionality
+
+    add
+
+    remove
+
+    and save
+
 about page
+
+    context
+
+    team
+
+    contact
+
 search functionality
+
+    search clothing
+
+    category searching
 
 later on
 
 add
-error page
-notFound page
-loading page
+
+    error page
+
+    notFound page
+
+    loading page

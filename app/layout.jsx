@@ -1,13 +1,9 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../styles/globals.css";
+import localFont from "next/font/local";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const pixelFont = localFont({
+  src: "./fonts/pixelFont/JunMono.otf",
+  variable: "--font-junmono",
   subsets: ["latin"],
 });
 
@@ -19,11 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${pixelFont.variable} antialiased`}>{children}</body>
     </html>
   );
 }
